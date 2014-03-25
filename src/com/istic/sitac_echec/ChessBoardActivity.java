@@ -3,6 +3,7 @@ package com.istic.sitac_echec;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.GridView;
 
 import com.istic.sit.framework.api.model.IEntity;
@@ -50,7 +51,7 @@ public class ChessBoardActivity extends MainActivity {
 
 
 	public void move( IEntity from , int x, int y ){
-		
+		//initializeBackground(TypeBackgroundEnum.Board, savedInstanceState);
 	}
 
 	@Override
@@ -59,9 +60,21 @@ public class ChessBoardActivity extends MainActivity {
 	}
 
 	@Override
-	public void onItemMenuClicked(int position) {
+	public void onItemMenuClicked(int position, View view) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void onItemMenuLongClicked(int position, View view) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean onActionDropFromMenu() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 }
