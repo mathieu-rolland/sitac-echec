@@ -4,6 +4,7 @@
     <string name="app_name">Sitac-echec</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="pawnCaseDescription">case noire</string>
 
      <!-- Nav Drawer Menu Items -->
     <string name="menu_exit">Exit</string>
